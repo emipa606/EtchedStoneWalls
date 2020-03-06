@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RSSW.DesignatorEtchWall>Etch wall</RSSW.DesignatorEtchWall>
+	<RSSW.DesignatorEtchWallDesc>Designate smoothed stone walls to be etched with a block pattern to match the look of walls constructed from blocks. This utilizes crafting rather than construction skill, and can also be used to "undecorate" decorative etched walls, to remove art you don't like.</RSSW.DesignatorEtchWallDesc>
+
+	<RSSW.DesignatorEtchWallDecorative>Etch wall (decorative)</RSSW.DesignatorEtchWallDecorative>
+	<RSSW.DesignatorEtchWallDecorativeDesc>Designate smoothed or etched stone walls to be decorated. This requires artistic skill rather than construction skill. Pawns with higher artistic skill are more likely to actually produce art.</RSSW.DesignatorEtchWallDecorativeDesc>
+
+	<RSSW.TerrainBeingEtched>The wall is already marked for etching.</RSSW.TerrainBeingEtched>
+	<RSSW.MessageMustDesignateSmooth>Must designate a smoothed stone wall.</RSSW.MessageMustDesignateSmooth>
+	<RSSW.MessageMustDesignateDecoratable>Must designate a smoothed or a basic etched stone wall.</RSSW.MessageMustDesignateDecoratable>
+
+	<RSSW.EtchedWall.label1>etched </RSSW.EtchedWall.label1>
+	<RSSW.EtchedWall.label2> (decorated)</RSSW.EtchedWall.label2>
+	
+	<RSSW.EtchedWall> It's been etched to mimic the look of a block wall.</RSSW.EtchedWall>
+
+	<RSSW.EtchedWallAtom>A natural stone wall that's been smoothed and etched with a block pattern. It also features a picture of an atom. Or perhaps it's a star system. It's a bit hard to tell. Was the artist a physicist or an astronomer?</RSSW.EtchedWallAtom>
+
+	<RSSW.EtchedWallBeer>A natural stone wall that's been smoothed and etched with a block pattern and with an image of a mug of beer.</RSSW.EtchedWallBeer>
+
+	<RSSW.EtchedWallCheese>A natural stone wall that's been smoothed and etched with a block pattern... and, for some reason, with a picture of cheese.</RSSW.EtchedWallCheese>
+
+	<RSSW.EtchedWallDoor>A natural stone wall that's been smoothed and etched with a block pattern... and with a life-sized picture of a door. Fortunately, it's not a very convincing depiction, so no one's likely to actually walk into the wall.</RSSW.EtchedWallDoor>
+
+	<RSSW.EtchedWallShovel>A natural stone wall that's been smoothed and etched with a block pattern. For reasons known only to the artist, the wall also features an etched image of a shovel. It's a beautiful shovel, to be sure, but still... it's a shovel.</RSSW.EtchedWallShovel>
+
+	<RSSW.EtchedWallBoomalope>A natural stone wall that's been smoothed and etched with a block pattern, and with a picture of a boomalope.</RSSW.EtchedWallBoomalope>
+
+	<RSSW.EtchedWallForest>A natural stone wall that's been smoothed and etched with a block pattern, and also with a basic forest landscape.</RSSW.EtchedWallForest>
+
+	<RSSW.EtchedWallHouse>A natural stone wall that's been smoothed and etched with a block pattern. The wall also features a picture of someone's home, complete with a picket fence.</RSSW.EtchedWallHouse>
+
+	<RSSW.EtchedWallPlanet>A natural stone wall that's been smoothed and etched with a block pattern. In addition, the wall boasts the etched image of a planet. Perhaps it's the one on which you live?</RSSW.EtchedWallPlanet>
+
+	<RSSW.EtchedWallRocket>A natural stone wall that's been smoothed and etched with a block pattern. The artist also carved an image of a rocket. It's a rather crude design, though, suggestive more of primitive fantasies of space travel than of actual interstellar vessels.</RSSW.EtchedWallRocket>
+
+	<RSSW.EtchedWallGerbils>A natural stone wall that's been smoothed and etched with a block pattern. It also features gerbils. The picture is surprisingly good, and is titled, 'Gerbils Standing in a Defiant Stance Against the Harshness of the Sea on a Backdrop of Gloom Forests and Love.'</RSSW.EtchedWallGerbils>
+
+	<RSSW.EtchedWallIsland>A natural stone wall that's been smoothed and etched with a block pattern. Also etched into the wall is an image of a deserted tropical island.</RSSW.EtchedWallIsland>
+
+	<RSSW.EtchedWallMan>A natural stone wall that's been smoothed and etched with a block pattern, as well as with a portrait of a man.</RSSW.EtchedWallMan>
+
+	<RSSW.EtchedWallRose>A natural stone wall that's been smoothed and etched with a block pattern. Also etched into the wall is a beautiful image of a single rose.</RSSW.EtchedWallRose>
+
+	<RSSW.EtchedWallWoman>A natural stone wall that's been smoothed and etched with a block pattern. The wall also features a portrait of a woman.</RSSW.EtchedWallWoman>
+
+</LanguageData>

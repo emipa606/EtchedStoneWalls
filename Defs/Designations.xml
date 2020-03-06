@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignationDef>
+		<defName>EtchWall</defName>
+		<texturePath>EtchWall_Ghost</texturePath>
+		<targetType>Cell</targetType>
+	</DesignationDef>
+
+	<DesignationDef>
+		<defName>EtchWallDecorative</defName>
+		<texturePath>EtchWall_Ghost</texturePath>
+		<targetType>Cell</targetType>
+	</DesignationDef>
+
+</Defs>

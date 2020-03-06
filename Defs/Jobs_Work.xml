@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>EtchWall</defName>
+		<driverClass>RSSW_Code.JobDriver_EtchWall</driverClass>
+		<reportString>etching wall.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>EtchWallDecorative</defName>
+		<driverClass>RSSW_Code.JobDriver_EtchWallDecorative</driverClass>
+		<reportString>decorating wall.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+</Defs>

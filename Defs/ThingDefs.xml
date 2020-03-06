@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- REQUIRED FOR COMPATIILITY WITH SAVED GAMES FROM BEFORE NPS WAS UPDATED TO FIX BASALT SMOOTHING -->
+	
+	<ThingDef ParentName="UglyRockBase">
+		<defName>SmoothedLavaRock</defName>
+		<label>smoothed basalt</label>
+		<description>Lava that has cooled into a black rock with flecks of lava glass. It has been polished to a flat, smooth surface.</description>
+		<graphicData>
+			<color>(50,50,50)</color>
+			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Beauty>1</Beauty>
+			<MarketValue>18</MarketValue>
+		</statBases>
+		<building>
+			<isNaturalRock>false</isNaturalRock>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+		</building>
+		<saveCompressible>false</saveCompressible>
+		<repairEffect>Repair</repairEffect>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>EtchWalls</defName>
+		<label>etch walls</label>
+		<giverClass>RSSW_Code.WorkGiver_EtchWall</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>75</priorityInType>
+		<verb>etch</verb>
+		<gerund>etching</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>EtchWallsDecorative</defName>
+		<label>decorate walls</label>
+		<giverClass>RSSW_Code.WorkGiver_EtchWallDecorative</giverClass>
+		<workType>Art</workType>
+		<priorityInType>75</priorityInType>
+		<verb>decorate</verb>
+		<gerund>decorating</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

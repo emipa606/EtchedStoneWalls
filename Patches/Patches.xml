@@ -1,0 +1,25 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/DesignationCategoryDef[defName = "Orders"]/specialDesignatorClasses</xpath>
+		<value>
+			<li>RSSW_Code.Designator_EtchWall</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/DesignationCategoryDef[defName = "Orders"]/specialDesignatorClasses</xpath>
+		<value>
+			<li>RSSW_Code.Designator_EtchWallDecorative</li>
+		</value>
+	</Operation>
+
+	<!--<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName = "TKKN_LavaRock"]/building</xpath>
+		<value>
+			<smoothedThing>SmoothedLavaRock</smoothedThing>
+		</value>
+	</Operation>-->
+
+</Patch>
