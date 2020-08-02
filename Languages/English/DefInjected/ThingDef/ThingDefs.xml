@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- REQUIRED FOR COMPATIILITY WITH SAVED GAMES FROM BEFORE NPS WAS UPDATED TO FIX BASALT SMOOTHING -->
+
+  <SmoothedLavaRock.label>smoothed basalt</SmoothedLavaRock.label>
+  <SmoothedLavaRock.description>Lava that has cooled into a black rock with flecks of lava glass. It has been polished to a flat, smooth surface.</SmoothedLavaRock.description>
+
+
+</LanguageData>
