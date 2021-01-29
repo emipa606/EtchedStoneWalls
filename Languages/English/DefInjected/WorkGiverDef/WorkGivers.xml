@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <EtchWalls.label>etch walls</EtchWalls.label>
   <EtchWalls.verb>etch</EtchWalls.verb>
   <EtchWalls.gerund>etching</EtchWalls.gerund>
-
   <EtchWallsDecorative.label>decorate walls</EtchWallsDecorative.label>
   <EtchWallsDecorative.verb>decorate</EtchWallsDecorative.verb>
   <EtchWallsDecorative.gerund>decorating</EtchWallsDecorative.gerund>
-
-
 </LanguageData>
