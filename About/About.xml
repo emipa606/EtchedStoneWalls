@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>[RF] Etched Stone Walls (Continued)</name>
   <packageId>Mlie.EtchedStoneWalls</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -24,6 +25,8 @@
 Update of Rainbeau Flambes
 https://steamcommunity.com/sharedfiles/filedetails/?id=1545872070
 
+- Added meditation stats, similar to normal walls
+
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
 [table]
@@ -35,29 +38,29 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1545872070
 	
 [img]https://i.imgur.com/NOW7jU1.png[/img]
 
-[b]Since beta 19, vanilla RimWorld has allowed you to smooth natural stone walls. This allows you to have real walls in the rooms in your mountain hideaway, without needing to mine out rock and then immediately replace it with a wall built from scratch. But smoothed stone walls are, as you'd expect, smooth. They don't have the graphic patterning that constructed (block) walls have. 
+[b]Since beta 19, vanilla RimWorld has allowed you to smooth natural stone walls. This allows you to have real walls in the rooms in your mountain hideaway, without needing to mine out rock and then immediately replace it with a wall built from scratch. But smoothed stone walls are, as you&apos;d expect, smooth. They don&apos;t have the graphic patterning that constructed (block) walls have. 
 
-Some players prefer to have all their walls look exactly the same. And that's where this mod comes in. You can have your crafty pawns "etch" the smoothed stone walls, to give them a pattern that matches the brick pattern in constructed walls. Alternatively, you can have a pawn with artistic skill do decorative etching, in which case at least some of your wall tiles, in addition to a brick pattern, will end up randomly decorated with pictures.
+Some players prefer to have all their walls look exactly the same. And that&apos;s where this mod comes in. You can have your crafty pawns &quot;etch&quot; the smoothed stone walls, to give them a pattern that matches the brick pattern in constructed walls. Alternatively, you can have a pawn with artistic skill do decorative etching, in which case at least some of your wall tiles, in addition to a brick pattern, will end up randomly decorated with pictures.
 
 - Rainbeau Flambe (dburgdorf)[/b]
 
 [h1][b][u]Compatibility:[/u][/b][/h1]
 
-"Etched Stone Walls" adds a new capability, but doesn't change any existing things, so it should be compatible with pretty much any other mod. You should be able to add it to an existing saved game without trouble. Removing it from a game in progress, however, will make the game unplayable if you have any etched or decorated walls on the map.
+&quot;Etched Stone Walls&quot; adds a new capability, but doesn&apos;t change any existing things, so it should be compatible with pretty much any other mod. You should be able to add it to an existing saved game without trouble. Removing it from a game in progress, however, will make the game unplayable if you have any etched or decorated walls on the map.
 
-"Etched Stone Walls" should be fully compatible with stone types added by other mods, at least as long as those mods follow vanilla's convention for walls' defNames, meaning that you'll be able to smooth walls of non-vanilla stone types as easily as you can those of vanilla stone types.
+&quot;Etched Stone Walls&quot; should be fully compatible with stone types added by other mods, at least as long as those mods follow vanilla&apos;s convention for walls&apos; defNames, meaning that you&apos;ll be able to smooth walls of non-vanilla stone types as easily as you can those of vanilla stone types.
 
 [h1][b][u]Credits:[/u][/b][/h1]
 
 Most of the images used for wall art came from the flaticon.com Web site.
 
-The mod utilizes Pardeike's "Harmony Patch Library." (No additional download is required, as the library is included with the mod.)
+The mod utilizes Pardeike&apos;s &quot;Harmony Patch Library.&quot; (No additional download is required, as the library is included with the mod.)
 
 [h1][b][u]License:[/u][/b][/h1]
 
-If you're a modpack maker and want to include "Etched Stone Walls" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
+If you&apos;re a modpack maker and want to include &quot;Etched Stone Walls&quot; in your pack, or if you&apos;re a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
 
-[h1][i]The Ludeon forums discussion thread for my mods can be found [url=https://ludeon.com/forums/index.php?topic=46165]here[/url].
+[h1][i]The Ludeon forums discussion thread for my mods can be found [url=https://ludeon.com/forums/index.php?topic=46165]here[/url].[/i][/h1]
 
 If you have any (helpful) suggestions for improvement, please let me know!
 
@@ -71,6 +74,6 @@ If you have any (helpful) suggestions for improvement, please let me know!
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
-
