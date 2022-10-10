@@ -115,71 +115,74 @@ public class JobDriver_EtchWallDecorative : JobDriver
 
             var pictureChoice = rnd.Next(5);
             float xpGain;
-            if (pictureQuality == 1)
+            switch (pictureQuality)
             {
-                xpGain = 100f;
-                switch (pictureChoice)
-                {
-                    case 0:
-                        wall += "XXAtom";
-                        break;
-                    case 1:
-                        wall += "XXBeer";
-                        break;
-                    case 2:
-                        wall += "XXCheese";
-                        break;
-                    case 3:
-                        wall += "XXDoor";
-                        break;
-                    default:
-                        wall += "XXShovel";
-                        break;
-                }
-            }
-            else if (pictureQuality == 2)
-            {
-                xpGain = 200f;
-                switch (pictureChoice)
-                {
-                    case 0:
-                        wall += "XXBoomalope";
-                        break;
-                    case 1:
-                        wall += "XXForest";
-                        break;
-                    case 2:
-                        wall += "XXHouse";
-                        break;
-                    case 3:
-                        wall += "XXPlanet";
-                        break;
-                    default:
-                        wall += "XXRocket";
-                        break;
-                }
-            }
-            else
-            {
-                xpGain = 400f;
-                switch (pictureChoice)
-                {
-                    case 0:
-                        wall += "XXGerbils";
-                        break;
-                    case 1:
-                        wall += "XXIsland";
-                        break;
-                    case 2:
-                        wall += "XXMan";
-                        break;
-                    case 3:
-                        wall += "XXRose";
-                        break;
-                    default:
-                        wall += "XXWoman";
-                        break;
-                }
+                case 1:
+                    xpGain = 100f;
+                    switch (pictureChoice)
+                    {
+                        case 0:
+                            wall += "XXAtom";
+                            break;
+                        case 1:
+                            wall += "XXBeer";
+                            break;
+                        case 2:
+                            wall += "XXCheese";
+                            break;
+                        case 3:
+                            wall += "XXDoor";
+                            break;
+                        default:
+                            wall += "XXShovel";
+                            break;
+                    }
+
+                    break;
+                case 2:
+                    xpGain = 200f;
+                    switch (pictureChoice)
+                    {
+                        case 0:
+                            wall += "XXBoomalope";
+                            break;
+                        case 1:
+                            wall += "XXForest";
+                            break;
+                        case 2:
+                            wall += "XXHouse";
+                            break;
+                        case 3:
+                            wall += "XXPlanet";
+                            break;
+                        default:
+                            wall += "XXRocket";
+                            break;
+                    }
+
+                    break;
+                default:
+                    xpGain = 400f;
+                    switch (pictureChoice)
+                    {
+                        case 0:
+                            wall += "XXGerbils";
+                            break;
+                        case 1:
+                            wall += "XXIsland";
+                            break;
+                        case 2:
+                            wall += "XXMan";
+                            break;
+                        case 3:
+                            wall += "XXRose";
+                            break;
+                        default:
+                            wall += "XXWoman";
+                            break;
+                    }
+
+                    break;
             }
 
             pawn.skills?.Learn(SkillDefOf.Artistic, xpGain);

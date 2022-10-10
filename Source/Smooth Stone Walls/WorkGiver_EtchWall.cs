@@ -46,12 +46,7 @@ public class WorkGiver_EtchWall : WorkGiver_Scanner
         }
 
         target = c;
-        if (pawn.CanReserve(target, 1, -1, null, forced))
-        {
-            return true;
-        }
-
-        return false;
+        return pawn.CanReserve(target, 1, -1, null, forced);
     }
 
     public override Job JobOnCell(Pawn pawn, IntVec3 c, bool forced = false)
