@@ -167,8 +167,8 @@ internal static class RSSW_Initializer
         foreach (var thingDef in defsToAdd)
         {
             DefGenerator.AddImpliedDef(thingDef);
-            //AccessTools.Method(typeof(ShortHashGiver), "GiveShortHash")
-            //    .Invoke(null, new object[] { thingDef, typeof(ThingDef) });
+            ShortHashGiver.GiveShortHash(thingDef, typeof(ThingDef),
+                ShortHashGiver.takenHashesPerDeftype[typeof(ThingDef)]);
         }
     }
 
@@ -205,7 +205,7 @@ internal static class RSSW_Initializer
             selectable = originalStructure.selectable,
             staticSunShadowHeight = originalStructure.staticSunShadowHeight,
             thingClass = originalStructure.thingClass,
-            comps = DefDatabase<ThingDef>.GetNamedSilentFail("Wall").comps,
+            comps = ThingDefOf.Wall.comps,
             statBases = new List<StatModifier>()
         };
 

@@ -1,0 +1,175 @@
+---------------------------------------------------------------------------------
+  Changelog for "Rainbeau's Etched Stone Walls"
+---------------------------------------------------------------------------------
+
+- 12/05/2018
+	- Removed patch previously required for smoothing NPS's basalt.
+	- Rewrote XML patches to improve load efficiency slightly.
+
+- 11/04/2018
+	- Added fixes to allow basalt from "Nature's Pretty Sweet" to be smoothed and
+	  etched.
+	  
+- 10/29/2018
+	- Inside corners will no longer be "auto-smoothed," as while that feature is
+	  fine in vanilla, where smoothed walls come in one and only one flavor, it
+	  doesn't work so well in the context of the mod.
+	- Pawns can now smooth and/or etch inside corners themselves.
+	
+- 10/23/2018
+	- An additional quick code fix to prevent short hash conflicts.
+	
+- 10/23/2018
+	- Changed the mod's name from "Smooth Stone Walls" to "Etched Stone Walls."
+	- Replaced the code that puts etching icons on the task bar. This should get
+	  rid of the huge performance hits some players were seeing when selecting
+	  multiple items.
+	  
+- 10/22/2018
+	- Updated to RimWorld 1.0 release! (b19 was skipped.)
+	- Removed basic smoothing functionality from the mod, since that's now a
+	  vanilla capability. The mod now just allows etching and decorating.
+	- Rewrote much of the code to accommodate vanilla's smoothing system, which
+	  is rather different than the system used in earlier versions of this mod.
+	- Added etching and decorating to task bar when smoothed wall tiles are
+	  selected, so it's now possible to pick a wall segment and designate it to
+	  be etched, instead of having to select "etch" from the architect menu and
+	  then pick a wall segment or segments.
+	- Updated the version of the Harmony library the mod uses.
+	- Removed "Mod Sync Ninja" files.
+
+- 01/01/2018
+	- Squashed the bug I inadvertently introduced that messed up display of 
+	  decorated walls.
+
+- 01/01/2018
+	- The mod is now compatible with the altered stone and wall graphics used in
+	  "Cupro's Stones."
+	- Skill gain rates for smoothing (construction) and basic etching (crafting) 
+	  have been cut in half. The skill gain rate for decorating (artistic) has
+	  not been changed.
+
+- 12/04/2017
+	- It is now possible to smooth basalt rock walls from the "Nature's Pretty
+	  Sweet" mod.
+	- The mod now also works with the "Mod Sync Ninja" updater.
+
+- 12/03/2017
+	- Conduits no longer prevent etching or decorating of walls.
+	- The priority of wall smoothing has been dropped a bit so that it's above
+	  deconstruction but below other actual construction tasks.
+
+- 11/13/2017
+	- Added Russian language translation files provided by kr33man.
+
+- 11/12/2017
+	- Added Japanese language translation files by Proxyer.
+
+- 11/12/2017
+	- Updated to RimWorld b18 release.
+	- Basic etching is now a crafting job rather than a construction job, giving
+	  crafting rather than construction XP.
+	- Decorative etching is still an art job, but no longer provides construction
+	  XP, instead giving only artistic XP, as it should.
+	- The priority of the basic "smooth wall" job has been raised so that it's
+	  comparable to other basic construction jobs, so that pawns are more
+	  likely to actually smooth walls, even with other jobs in the queue.
+
+- 07/30/2017
+	- Coolers and vents can now be placed directly on smoothed walls just as on
+	  vanilla walls.
+
+- 06/08/2017
+	- Replaced XML overwrites with patches for better compatibility with other
+	  mods.
+	- Added new embrasure textures consistent with the revised wall graphics,
+	  which should automatically be used if another mod in use adds embrasures.
+
+- 06/06/2017
+	- XML defs no longer try to inherit from core abstracts. (Not only is this 
+	  change a good idea, anyway, but it also fixed the "Map Reroll" issue.)
+
+- 06/04/2017
+	- Pawns are once again able to smooth the inside corners of mountain rooms!
+	  "And there was much rejoicing."
+	- Reduced the time it takes to smooth a wall to about 3/4 of what it was
+	  before. This should represent a bit of a savings over the time required to
+	  mine a tile and then build a new wall, without making smoothing too
+	  overpowered.
+	- Made a change to the XML wall defs which I'd hoped would fix the "Map
+	  Reroll" wall graphics glitch. It didn't actually fix the glitch, but it's
+	  probably a good change, anyway.
+	- Added "[RF]" prefix tag to the mod's name for easier mod list sorting.
+
+- 05/27/2017
+	- Fixed German language file, which I'd inadvertently corrupted.
+
+- 05/26/2017
+	- New German translation file added, courtesy of Steam user Lauri7x3.
+	- It should no longer be possible for traders to show up with etched walls in
+	  their inventories.
+
+- 05/09/2017
+	- Potential roof collapse while smoothing or etching walls should no longer
+	  be an issue.
+
+- 05/07/2017
+	- Updated to RimWorld alpha 17.
+	- Added the ability to "undecorate" walls.
+	- Pawns now gain artistic skill when they complete decorative etchings.
+	- Removed the out of date and incomplete German translation file.
+
+- 04/23/2017
+	- The mod now uses the Harmony library instead of detouring core methods.
+	  
+- 04/22/2017
+	- It is now possible to do either basic or decorative etching. Decorative
+	  etching can be done by any pawn assigned to artistic work, and results in
+	  some wall tiles being randomly adorned with pictures in addition to the
+	  brick pattern. (Pawns with higher artistic skill are more likely to
+	  actually produce such art.)
+
+- 04/19/2017
+	- Added the ability to "etch" smoothed stone walls to give them the same
+	  brick pattern that constructed walls have, if you prefer that all of your
+	  wall tiles look the same.
+	- You should now be able to smooth any type of natural stone wall, added by
+	  any mod, rather than just those added by specific mods I happen to be aware
+	  of.
+
+- 04/11/2017
+	- Improved both the constructed and the smoothed wall graphics so they "flow"
+	  well graphically not only into each other, but also into natural rock
+	  walls.
+
+- 04/10/2017
+	- Filled some "gaps" in the smoothed stone wall definition, which will
+	  perhaps fix some odd errors that some users have seen.
+	- Fixed the greyscaling on the smooth stone wall graphics to better match the
+	  greyscaling on the block stone wall graphics, so stone walls will "flow"
+	  better graphically from constructed to smoothed segments.
+
+- 04/09/2017
+	- Smoothed walls are now a distinct wall type, slightly more durable than
+	  stone walls constructed with blocks. When deconstructed, smooth stone walls
+	  don't yield blocks, but have the same chance as mined stone tiles to drop
+	  stone chunks.
+	- Squashed a bug which yielded "free" granite walls when a tile was set to be
+	  both mined and smoothed.
+
+- 03/10/2017
+	- Non-vanilla wall compatibility no longer requires separate dll files.
+
+- 03/05/2017
+	- Allowed for compatibility with non-vanilla walls from the "Minerals and
+	  Materials" and "Kura's Extra Minerals" mods.
+	- Smoothing stone walls now requires Stonecutting research, to prevent free
+	  access to bricks in tribal start games.
+	- Smoothed walls now automatically belong to your faction and don't need to
+	  be claimed.
+
+- 02/26/2017
+	- German translation file added, courtesy of Steam user Axel.
+
+- 02/25/2017
+	- Initial release.

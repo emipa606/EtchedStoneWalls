@@ -36,7 +36,7 @@ public class JobDriver_EtchWallDecorative : JobDriver
     }
 
     [DebuggerHidden]
-    protected override IEnumerable<Toil> MakeNewToils()
+    public override IEnumerable<Toil> MakeNewToils()
     {
         this.FailOn(() =>
             !job.ignoreDesignations && Map.designationManager.DesignationAt(TargetLocA, DesDef) == null);
