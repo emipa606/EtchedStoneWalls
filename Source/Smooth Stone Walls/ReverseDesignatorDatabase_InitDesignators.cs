@@ -4,7 +4,7 @@ using Verse;
 
 namespace RSSW_Code;
 
-[HarmonyPatch(typeof(ReverseDesignatorDatabase), "InitDesignators", null)]
+[HarmonyPatch(typeof(ReverseDesignatorDatabase), nameof(ReverseDesignatorDatabase.InitDesignators), null)]
 public static class ReverseDesignatorDatabase_InitDesignators
 {
     public static void Postfix(ref List<Designator> ___desList)

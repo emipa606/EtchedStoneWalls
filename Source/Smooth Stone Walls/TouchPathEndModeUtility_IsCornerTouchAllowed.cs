@@ -4,7 +4,7 @@ using Verse.AI;
 
 namespace RSSW_Code;
 
-[HarmonyPatch(typeof(TouchPathEndModeUtility), "IsCornerTouchAllowed")]
+[HarmonyPatch(typeof(TouchPathEndModeUtility), nameof(TouchPathEndModeUtility.IsCornerTouchAllowed_NewTemp))]
 public static class TouchPathEndModeUtility_IsCornerTouchAllowed
 {
     public static bool Prefix(int cornerX, int cornerZ, PathingContext pc, ref bool __result)

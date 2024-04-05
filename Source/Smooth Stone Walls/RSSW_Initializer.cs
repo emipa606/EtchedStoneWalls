@@ -206,7 +206,7 @@ internal static class RSSW_Initializer
             staticSunShadowHeight = originalStructure.staticSunShadowHeight,
             thingClass = originalStructure.thingClass,
             comps = ThingDefOf.Wall.comps,
-            statBases = new List<StatModifier>()
+            statBases = []
         };
 
         if (!originalStructure.statBases.Any())

@@ -4,7 +4,7 @@ using Verse;
 
 namespace RSSW_Code;
 
-[HarmonyPatch(typeof(Designator_SmoothSurface), "CanDesignateCell", null)]
+[HarmonyPatch(typeof(Designator_SmoothSurface), nameof(Designator_SmoothSurface.CanDesignateCell), null)]
 public static class Designator_SmoothSurface_CanDesignateCell
 {
     public static bool Prefix(IntVec3 c, ref AcceptanceReport __result, ref Designator_SmoothSurface __instance)
