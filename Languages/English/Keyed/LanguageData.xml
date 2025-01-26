@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <RSSW.DesignatorEtchWall>Etch wall</RSSW.DesignatorEtchWall>
   <RSSW.DesignatorEtchWallDesc>Designate smoothed stone walls to be etched with a block pattern to match the look of walls constructed from blocks. This utilizes crafting rather than construction skill, and can also be used to "undecorate" decorative etched walls, to remove art you don't like.</RSSW.DesignatorEtchWallDesc>

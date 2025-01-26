@@ -16,6 +16,7 @@ internal static class RSSW_Initializer
         var harmony = new Harmony("net.rainbeau.rimworld.mod.smoothstone");
         harmony.PatchAll(Assembly.GetExecutingAssembly());
         var usingNPS = ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("Nature's Pretty Sweet"));
+        var usingReBuild = ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("ReBuild: Doors and Corners"));
 
         var allThings = DefDatabase<ThingDef>.AllDefsListForReading;
         var defsToAdd = new List<ThingDef>();
@@ -39,6 +40,11 @@ internal static class RSSW_Initializer
             newEtchedStone.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label;
             newEtchedStone.description = originalStructure.description + "RSSW.EtchedWall".Translate();
             newEtchedStone.graphicData.texPath = "Walls/Wall_Atlas_Basic";
+            if (usingReBuild)
+            {
+                newEtchedStone.graphicData.texPath = "Things/Building/Linked/Wall/Wall_Atlas_Bricks";
+            }
+
             defsToAdd.Add(newEtchedStone);
             //
             var newEtchedStoneAtom = GenerateBaseStructure(originalStructure);

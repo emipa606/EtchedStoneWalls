@@ -1,5 +1,8 @@
 # Changelog for EtchedStoneWalls
 
+1.5.1 - Etched blank walls uses texture from ReBuild: Doors and Corners if loaded
+
+
 1.5.0 - Updated for 1.5
 
 
