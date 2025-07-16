@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 4175399488
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0518f555b26a2b4771b824574628456b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0518f555b26a2b4771b824574628456b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/Walls/Wall_Atlas_Basic.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Rose.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_House.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Door.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Cheese.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Shovel.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/EtchWall.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Atom.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Planet.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Man.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Island.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Beer.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Forest.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Rocket.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Woman.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Boomalope.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/EtchWall_Ghost.png
+- Assets/Data/Mlie.EtchedStoneWalls/Textures/WallsDecorated/Wall_Atlas_Bricks_Gerbils.png
+Dependencies: []

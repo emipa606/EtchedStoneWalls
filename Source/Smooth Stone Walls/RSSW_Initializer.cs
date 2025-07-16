@@ -35,7 +35,7 @@ internal static class RSSW_Initializer
             }
 
             //
-            var newEtchedStone = GenerateBaseStructure(originalStructure);
+            var newEtchedStone = generateBaseStructure(originalStructure);
             newEtchedStone.defName = $"Etched{originalStructure.defName}";
             newEtchedStone.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label;
             newEtchedStone.description = originalStructure.description + "RSSW.EtchedWall".Translate();
@@ -47,7 +47,7 @@ internal static class RSSW_Initializer
 
             defsToAdd.Add(newEtchedStone);
             //
-            var newEtchedStoneAtom = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneAtom = generateBaseStructure(originalStructure);
             newEtchedStoneAtom.defName = $"Etched{originalStructure.defName}XXAtom";
             newEtchedStoneAtom.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                        "RSSW.EtchedWall.label2".Translate();
@@ -55,7 +55,7 @@ internal static class RSSW_Initializer
             newEtchedStoneAtom.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Atom";
             defsToAdd.Add(newEtchedStoneAtom);
             //
-            var newEtchedStoneBeer = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneBeer = generateBaseStructure(originalStructure);
             newEtchedStoneBeer.defName = $"Etched{originalStructure.defName}XXBeer";
             newEtchedStoneBeer.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                        "RSSW.EtchedWall.label2".Translate();
@@ -63,7 +63,7 @@ internal static class RSSW_Initializer
             newEtchedStoneBeer.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Beer";
             defsToAdd.Add(newEtchedStoneBeer);
             //
-            var newEtchedStoneCheese = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneCheese = generateBaseStructure(originalStructure);
             newEtchedStoneCheese.defName = $"Etched{originalStructure.defName}XXCheese";
             newEtchedStoneCheese.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                          "RSSW.EtchedWall.label2".Translate();
@@ -71,7 +71,7 @@ internal static class RSSW_Initializer
             newEtchedStoneCheese.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Cheese";
             defsToAdd.Add(newEtchedStoneCheese);
             //
-            var newEtchedStoneDoor = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneDoor = generateBaseStructure(originalStructure);
             newEtchedStoneDoor.defName = $"Etched{originalStructure.defName}XXDoor";
             newEtchedStoneDoor.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                        "RSSW.EtchedWall.label2".Translate();
@@ -79,7 +79,7 @@ internal static class RSSW_Initializer
             newEtchedStoneDoor.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Door";
             defsToAdd.Add(newEtchedStoneDoor);
             //
-            var newEtchedStoneShovel = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneShovel = generateBaseStructure(originalStructure);
             newEtchedStoneShovel.defName = $"Etched{originalStructure.defName}XXShovel";
             newEtchedStoneShovel.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                          "RSSW.EtchedWall.label2".Translate();
@@ -87,7 +87,7 @@ internal static class RSSW_Initializer
             newEtchedStoneShovel.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Shovel";
             defsToAdd.Add(newEtchedStoneShovel);
             //
-            var newEtchedStoneBoomalope = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneBoomalope = generateBaseStructure(originalStructure);
             newEtchedStoneBoomalope.defName = $"Etched{originalStructure.defName}XXBoomalope";
             newEtchedStoneBoomalope.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                             "RSSW.EtchedWall.label2".Translate();
@@ -95,7 +95,7 @@ internal static class RSSW_Initializer
             newEtchedStoneBoomalope.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Boomalope";
             defsToAdd.Add(newEtchedStoneBoomalope);
             //
-            var newEtchedStoneForest = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneForest = generateBaseStructure(originalStructure);
             newEtchedStoneForest.defName = $"Etched{originalStructure.defName}XXForest";
             newEtchedStoneForest.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                          "RSSW.EtchedWall.label2".Translate();
@@ -103,7 +103,7 @@ internal static class RSSW_Initializer
             newEtchedStoneForest.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Forest";
             defsToAdd.Add(newEtchedStoneForest);
             //
-            var newEtchedStoneHouse = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneHouse = generateBaseStructure(originalStructure);
             newEtchedStoneHouse.defName = $"Etched{originalStructure.defName}XXHouse";
             newEtchedStoneHouse.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                         "RSSW.EtchedWall.label2".Translate();
@@ -111,7 +111,7 @@ internal static class RSSW_Initializer
             newEtchedStoneHouse.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_House";
             defsToAdd.Add(newEtchedStoneHouse);
             //
-            var newEtchedStonePlanet = GenerateBaseStructure(originalStructure);
+            var newEtchedStonePlanet = generateBaseStructure(originalStructure);
             newEtchedStonePlanet.defName = $"Etched{originalStructure.defName}XXPlanet";
             newEtchedStonePlanet.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                          "RSSW.EtchedWall.label2".Translate();
@@ -119,7 +119,7 @@ internal static class RSSW_Initializer
             newEtchedStonePlanet.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Planet";
             defsToAdd.Add(newEtchedStonePlanet);
             //
-            var newEtchedStoneRocket = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneRocket = generateBaseStructure(originalStructure);
             newEtchedStoneRocket.defName = $"Etched{originalStructure.defName}XXRocket";
             newEtchedStoneRocket.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                          "RSSW.EtchedWall.label2".Translate();
@@ -127,7 +127,7 @@ internal static class RSSW_Initializer
             newEtchedStoneRocket.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Rocket";
             defsToAdd.Add(newEtchedStoneRocket);
             //
-            var newEtchedStoneGerbils = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneGerbils = generateBaseStructure(originalStructure);
             newEtchedStoneGerbils.defName = $"Etched{originalStructure.defName}XXGerbils";
             newEtchedStoneGerbils.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                           "RSSW.EtchedWall.label2".Translate();
@@ -135,7 +135,7 @@ internal static class RSSW_Initializer
             newEtchedStoneGerbils.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Gerbils";
             defsToAdd.Add(newEtchedStoneGerbils);
             //
-            var newEtchedStoneIsland = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneIsland = generateBaseStructure(originalStructure);
             newEtchedStoneIsland.defName = $"Etched{originalStructure.defName}XXIsland";
             newEtchedStoneIsland.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                          "RSSW.EtchedWall.label2".Translate();
@@ -143,7 +143,7 @@ internal static class RSSW_Initializer
             newEtchedStoneIsland.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Island";
             defsToAdd.Add(newEtchedStoneIsland);
             //
-            var newEtchedStoneMan = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneMan = generateBaseStructure(originalStructure);
             newEtchedStoneMan.defName = $"Etched{originalStructure.defName}XXMan";
             newEtchedStoneMan.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                       "RSSW.EtchedWall.label2".Translate();
@@ -151,7 +151,7 @@ internal static class RSSW_Initializer
             newEtchedStoneMan.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Man";
             defsToAdd.Add(newEtchedStoneMan);
             //
-            var newEtchedStoneRose = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneRose = generateBaseStructure(originalStructure);
             newEtchedStoneRose.defName = $"Etched{originalStructure.defName}XXRose";
             newEtchedStoneRose.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                        "RSSW.EtchedWall.label2".Translate();
@@ -159,7 +159,7 @@ internal static class RSSW_Initializer
             newEtchedStoneRose.graphicData.texPath = "WallsDecorated/Wall_Atlas_Bricks_Rose";
             defsToAdd.Add(newEtchedStoneRose);
             //
-            var newEtchedStoneWoman = GenerateBaseStructure(originalStructure);
+            var newEtchedStoneWoman = generateBaseStructure(originalStructure);
             newEtchedStoneWoman.defName = $"Etched{originalStructure.defName}XXWoman";
             newEtchedStoneWoman.label = "RSSW.EtchedWall.label1".Translate() + originalStructure.label +
                                         "RSSW.EtchedWall.label2".Translate();
@@ -178,7 +178,7 @@ internal static class RSSW_Initializer
         }
     }
 
-    private static ThingDef GenerateBaseStructure(ThingDef originalStructure)
+    private static ThingDef generateBaseStructure(ThingDef originalStructure)
     {
         var newStructure = new ThingDef
         {

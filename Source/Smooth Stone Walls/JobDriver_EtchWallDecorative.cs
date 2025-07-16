@@ -10,29 +10,29 @@ namespace RSSW_Code;
 public class JobDriver_EtchWallDecorative : JobDriver
 {
     private float workLeft = -1000f;
-    protected int BaseWorkAmount => 1200;
-    protected DesignationDef DesDef => DesignationDefOf.EtchWallDecorative;
-    protected StatDef SpeedStat => StatDefOf.WorkSpeedGlobal;
+    private int BaseWorkAmount => 1200;
+    private DesignationDef DesDef => DesignationDefOf.EtchWallDecorative;
+    private StatDef SpeedStat => StatDefOf.WorkSpeedGlobal;
 
     public override bool TryMakePreToilReservations(bool errorOnFailed)
     {
         var pawn1 = pawn;
         var target = job.targetA;
         var job1 = job;
-        bool arg_62_0;
+        bool arg620;
         if (pawn1.Reserve(target, job1, 1, -1, null, errorOnFailed))
         {
             pawn1 = pawn;
             target = job.targetA.Cell;
             job1 = job;
-            arg_62_0 = pawn1.Reserve(target, job1, 1, -1, null, errorOnFailed);
+            arg620 = pawn1.Reserve(target, job1, 1, -1, null, errorOnFailed);
         }
         else
         {
-            arg_62_0 = false;
+            arg620 = false;
         }
 
-        return arg_62_0;
+        return arg620;
     }
 
     [DebuggerHidden]
@@ -57,7 +57,7 @@ public class JobDriver_EtchWallDecorative : JobDriver
                 return;
             }
 
-            DoEffect();
+            doEffect();
             var designation = Map.designationManager.DesignationAt(TargetLocA, DesDef);
             designation?.Delete();
 
@@ -70,7 +70,7 @@ public class JobDriver_EtchWallDecorative : JobDriver
         yield return doWork;
     }
 
-    protected void DoEffect()
+    private void doEffect()
     {
         var wall = TargetA.Thing.def.building.smoothedThing.defName;
         var rnd = new Random();
@@ -188,7 +188,7 @@ public class JobDriver_EtchWallDecorative : JobDriver
             pawn.skills?.Learn(SkillDefOf.Artistic, xpGain);
         }
 
-        SmoothableWallUtility.Notify_SmoothedByPawn(DecorateWall(TargetA.Thing, wall, pawn), pawn);
+        SmoothableWallUtility.Notify_SmoothedByPawn(decorateWall(TargetA.Thing, wall, pawn), pawn);
     }
 
     public override void ExposeData()
@@ -197,7 +197,7 @@ public class JobDriver_EtchWallDecorative : JobDriver
         Scribe_Values.Look(ref workLeft, "workLeft");
     }
 
-    public static Thing DecorateWall(Thing target, string newWall, Pawn smoother)
+    private static Thing decorateWall(Thing target, string newWall, Pawn smoother)
     {
         var map = target.Map;
         target.Destroy(DestroyMode.WillReplace);

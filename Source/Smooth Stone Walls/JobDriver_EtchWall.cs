@@ -9,9 +9,9 @@ namespace RSSW_Code;
 public class JobDriver_EtchWall : JobDriver
 {
     private float workLeft = -1000f;
-    protected int BaseWorkAmount => 600;
-    protected DesignationDef DesDef => DesignationDefOf.EtchWall;
-    protected StatDef SpeedStat => StatDefOf.SmoothingSpeed;
+    private int BaseWorkAmount => 600;
+    private DesignationDef DesDef => DesignationDefOf.EtchWall;
+    private StatDef SpeedStat => StatDefOf.SmoothingSpeed;
 
     public override bool TryMakePreToilReservations(bool errorOnFailed)
     {
@@ -56,7 +56,7 @@ public class JobDriver_EtchWall : JobDriver
                 return;
             }
 
-            DoEffect();
+            doEffect();
             var designation = Map.designationManager.DesignationAt(TargetLocA, DesDef);
             designation?.Delete();
 
@@ -69,7 +69,7 @@ public class JobDriver_EtchWall : JobDriver
         yield return doWork;
     }
 
-    protected void DoEffect()
+    private void doEffect()
     {
         SmoothableWallUtility.Notify_SmoothedByPawn(SmoothableWallUtility.SmoothWall(TargetA.Thing, pawn), pawn);
     }

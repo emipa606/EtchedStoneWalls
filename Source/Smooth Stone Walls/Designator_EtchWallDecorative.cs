@@ -19,7 +19,7 @@ public class Designator_EtchWallDecorative : Designator
         hotKey = KeyBindingDefOf.Misc1;
     }
 
-    public override int DraggableDimensions => 2;
+    public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.Orders;
     public override bool DragDrawMeasurements => true;
 
     public override AcceptanceReport CanDesignateThing(Thing t)
