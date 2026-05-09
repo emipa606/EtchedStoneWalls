@@ -1,5 +1,8 @@
 # Changelog for EtchedStoneWalls
 
+1.6.1 - Corner cells should now be reachable for smoothing and etching
+
+
 1.6.0 - Mod updated for 1.6 and passed autotests
 
 

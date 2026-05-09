@@ -9,9 +9,9 @@ namespace RSSW_Code;
 public class JobDriver_EtchWall : JobDriver
 {
     private float workLeft = -1000f;
-    private int BaseWorkAmount => 600;
-    private DesignationDef DesDef => DesignationDefOf.EtchWall;
-    private StatDef SpeedStat => StatDefOf.SmoothingSpeed;
+    private static int BaseWorkAmount => 600;
+    private static DesignationDef DesDef => DesignationDefOf.EtchWall;
+    private static StatDef SpeedStat => StatDefOf.SmoothingSpeed;
 
     public override bool TryMakePreToilReservations(bool errorOnFailed)
     {

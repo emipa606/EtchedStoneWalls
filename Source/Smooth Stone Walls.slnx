@@ -6,4 +6,19 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="Smooth Stone Walls/Smooth Stone Walls.csproj" />
+  <Folder Name="/XML/Patches/">
+    <File Path="../Patches/Patches.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/">
+    <File Path="../Defs/Designations.xml" />
+    <File Path="../Defs/Jobs_Work.xml" />
+    <File Path="../Defs/ThingDefs.xml" />
+    <File Path="../Defs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/LanguageData.xml" />
+  </Folder>
 </Solution>
