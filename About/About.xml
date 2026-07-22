@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>[RF] Etched Stone Walls (Continued)</name>
   <packageId>Mlie.EtchedStoneWalls</packageId>
-  <author>Mlie</author>
+  <author>Rainbeau Flambe</author>
   <url>https://github.com/emipa606/EtchedStoneWalls</url>
   <supportedVersions>
     <li>1.0</li>
@@ -83,6 +83,6 @@ If you have any (helpful) suggestions for improvement, please let me know!
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2015371021][img]https://img.shields.io/github/v/release/emipa606/EtchedStoneWalls?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: wall patterns., decor</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2015371021][img]https://img.shields.io/github/v/release/emipa606/EtchedStoneWalls?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: decorative etching, mountain base design</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
 </ModMetaData>

@@ -56,4 +56,4 @@ If you have any (helpful) suggestions for improvement, please let me know!
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/EtchedStoneWalls?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2015371021) | tags: wall patterns., decor
+[![Image](https://img.shields.io/github/v/release/emipa606/EtchedStoneWalls?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2015371021) | tags: decorative etching, mountain base design
